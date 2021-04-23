@@ -185,11 +185,12 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong>
+  Participants who are members of the University of Edinburgh can use the <a href="https://noteable.edina.ac.uk/launch/">noteable service</a>. Otherwise
   {% if online == "false" %}
-    Participants must bring a laptop with a
+    participants must bring a laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
-    Participants must have access to a computer with a
+    participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
@@ -381,7 +382,7 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
+  If you are a member of the university of Edinburgh all three parts of the 
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
@@ -389,9 +390,9 @@ please preview your site before committing, and make sure to run
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  workshop can be done using the <a href="https://noteable.edina.ac.uk/launch/">noteable</a> jupyerhub service. In this case all you need is a modern 
+  up-to-date web browser. We will assume that you are going to use the webservice. If you are not a member of the university or if you prefer o use your 
+  own installation of the tools you will need access to the software described below.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
