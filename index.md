@@ -368,7 +368,7 @@ please preview your site before committing, and make sure to run
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop can be done using the <a href="https://noteable.edina.ac.uk/launch/">noteable</a> jupyerhub service. In this case all you need is a modern 
+  workshop can be done using the <a href="https://noteable.edina.ac.uk/login/">noteable</a> jupyerhub service. In this case all you need is a modern 
   up-to-date web browser. We will assume that you are going to use the webservice. If you are not a member of the university or if you prefer o use your 
   own installation of the tools you will need access to the software described below.
 </p>
