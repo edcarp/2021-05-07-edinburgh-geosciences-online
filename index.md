@@ -163,7 +163,7 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong>
-  Participants who are members of the University of Edinburgh can use the <a href="https://noteable.edina.ac.uk/launch/">noteable service</a>. Otherwise
+  Participants who are members of the University of Edinburgh can use the <a href="https://noteable.edina.ac.uk/login/">noteable service</a>. Otherwise
   {% if online == "false" %}
     participants must bring a laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
